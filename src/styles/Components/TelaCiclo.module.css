@@ -1,0 +1,81 @@
+.ciclo {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.ciclo > div {
+  padding: 1.5rem 3rem;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  background: var(--white);
+  height: 28.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cicloNot > strong {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cicloNot img {
+  height: 2.5rem;
+  padding-right: 1.1rem;
+}
+
+.cicloNot p {
+  font-size: 1rem;
+  display: flex;
+  text-align: start;
+}
+
+/*ativado*/
+.cicloAtivado header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d7d8da;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.cicloAtivado span {
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cicloAtivado strong {
+  margin-top: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cicloAtivado footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.cicloAtivado footer button {
+  width: 9.3rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+  outline-style: none;
+}
+
+.cicloAtivado button:first-child {
+  background: var(--red);
+}
+
+.cicloAtivado button:last-child {
+  background: var(--green);
+}
+
+.cicloAtivado footer button:hover {
+  filter: brightness(0.9);
+}
